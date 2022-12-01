@@ -50,7 +50,7 @@ kubectl crossplane install provider crossplane/provider-civo-arm64:main
 
 In this case, we are going to follow the resources in the example repostory.
 
-Before creating a Provider resource, edit the API key in [provider.yaml](examples/civo/provider/provider.yaml). You can find the API key in your Civo account within Account>Settings>Security.
+Before creating a Provider resource, edit the API key in [provider.yaml](examples/civo/provider/provider.yaml). You can find the API key in your Civo account under Settings > Security https://dashboard.civo.com/security.
 
 Next, we can apply the Provider:
 
